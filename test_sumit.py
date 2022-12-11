@@ -4,7 +4,7 @@ n = len(sys.argv)
 
 print("Name of python script: ",sys.argv[0])
 
-ch = int(input("Enter choice: \n 1.Reversal of number\n2.Reversal of string\n3.Palindrome number\n4.Fibonacci series"))
+ch = int(sys.argv[1])
 
 if ch == 1:
     n = int(input("Enter number: "))
