@@ -18,10 +18,10 @@ for a in range(1, n):
 	print(sys.argv[a], end = " ")
 	
 # Addition of numbers
-sourabh=''
-print(type(sourabh))
+virat=''
+print(type(virat))
 # Using argparse module
 for i in range(1, n):
-	Sum += str(sys.argv[i])
+	Sum=sum+ str(sys.argv[i])
 	
 print("\n\nResult:", Sum)
