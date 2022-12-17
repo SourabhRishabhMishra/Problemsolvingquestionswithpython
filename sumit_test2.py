@@ -33,13 +33,13 @@ if ch == 1:
         result2 = result2 * num3
       print("The result is:",result2)
 
-      choice = input("Want to repeat again: y/n")
-      if choice == 'y':
+      repeat_choice = input(("Want to repeat again: y/n"))
+      if repeat_choice == 'y':
         continue
       else:
-        exit
+        exit()
   else:
-    exit
+    exit()
 
 if ch ==2 :
   n = int(input("Enter number: "))
